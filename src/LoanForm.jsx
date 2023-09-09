@@ -10,7 +10,8 @@ const LoanApplicationForm = () => {
     salary: '',
   });
 
-  const [errors, setErrors] = useState({});
+  // eslint-disable-next-line no-empty-pattern
+  const [] = useState({});
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
